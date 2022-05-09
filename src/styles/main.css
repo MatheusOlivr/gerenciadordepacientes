@@ -5,170 +5,79 @@
 }
 *
 {
+    margin: 0;
+    padding: 0;
 	font-family: Ubuntu,sans-serif;
 }
-/*Area da estilização do design do projeto*/
-body
+html
 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	margin-top: 5vh;
+    font-size:10px;
 }
 #conteudo
 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-shadow: black 15px 15px 40px;
-	width: 75vw;
-	height: 85vh;
-	border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:#fc4869;
 }
-#areaLogin
+.conteudo-bloco
 {
-	display: flex;
-	width: 16vw;
-	height: 12vh;
-	flex-basis: auto;
+    display: flex;
+    border-radius: 3vw 1vw 3vw 1vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 72vw;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    height: 85vh;
+    border: solid black 5px;
+    box-shadow: black 10px 10px 20px;
 }
-#areaLogin a
+.conteudo-bloco-img
 {
-	line-height: 8vh;
-	text-decoration: none;
-	font-size: 1.5vw;
-	padding: 2vh;
-	text-align: center;
-	color: black;
-	background-color: deepskyblue;
-	border-radius: 1vw;
+    flex-basis: 50vw;
+    
 }
-img
+.conteudo-bloco-button h1
 {
-	width: 40vw;
-	height: 70vh;
+    font-size:4.5rem;
+    margin:1vw 0 3vw;
 }
-h1
+.conteudo-bloco-img img
 {
-	font: 700;
-	color: #203A40;
-	font-size: 2.3vw;
-	text-align: center;
-	margin-bottom: 2vw;
-	margin-top: 0;
+    width: 100%;
+    height: 70vh;
 }
-#mensagem
+.conteudo-bloco-button
 {
-	position: absolute;
-
+    flex-basis: 35vw;
 }
-p
+.conteudo-bloco-button button
 {
-	text-align: center;
-	color: white;
-	background-color: #F24B59;
-	padding: 2px;
-	border-radius: 0.3vw;
-	margin-bottom: 1vh;
+    width: 80%;
+    font-size:2rem;
+    height: 8vh;
+    margin: 0.5vw 0;
+    border-radius: 0.5vw;
+    background-color: #F24B59;
+    
 }
-form
+.conteudo-bloco-button button:hover
 {
-	width: 24vw;
+    cursor: pointer;
+    background-color: #BF495E;
+    transition: 0.3;
 }
-label
+.conteudo-bloco-button #rodape
 {
-	display: flex;
-	justify-content: left;
-	font: 700;
-	margin-bottom: 1vh;
-	margin-top: 1vh;
-	font-size: 1.5vw;
+    font-size:1.6rem;
+    margin:2vw 0;
 }
-input
+.conteudo-bloco-button #rodape a
 {
-	border: solid;
-	border-color: #F24B59;
-	outline: none;
-	width: 100%;
-	height: 5vh;
-	border-radius: 0.3vw;
-	background-color: #F0F0F0;
-	padding: 6px;
-}
-button
-{
-	box-sizing: content-box;
-	font: 700;
-	width: 100%;
-	height: 8vh;
-	outline: none;
-	border: solid;
-	border-radius: 0.3vw;
-	border-color: #F24B59;
-	text-decoration: none;
-	color: white;
-	font-size: 2vw;
-	background-color: #F24B59;
-	margin: 1vh 0;
-}
-button:hover
-{
-	cursor: pointer;
-	background-color: #BF495E;
-	transition: 0.3s;
-}
-footer
-{
-	margin-top: 1vw;
-	padding: 0.5vw;
-	color: #203A40;
-	border-radius: 1vw;
-	text-align: center;
-}
-/*Area da estilização da tabela de pacientes*/
-table
-{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-table th
-{
-	text-align: center;
-	width: 15vw;
-	height: 7vh;
-	color: white;
-	background-color: #203A40;
-}
-table td
-{
-	text-align: center;
-	width: 15vw;
-	height: 6vh;
-	background-color: #A9A9A9;
-}
-/*Area de estilização do menu de navegação do projeto*/
-#menu
-{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 50vw;
-	margin-bottom: 0.5vw;
-}
-#menu a
-{
-	text-align: center;
-	font-size: 3vh;
-}
-#menu a:hover
-{
-	cursor: pointer;
-}
-a
-{
-	color: #BF495E;
-	text-decoration: none;
-	text-align: center;
+    color:#F24B59;
+    text-decoration: none;
 }
