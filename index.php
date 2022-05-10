@@ -17,9 +17,5 @@
                 <h1>Pagina Inicial</h1>
                 <a href = "src/frontEnd/login.php"><button>Fazer Login</button></a>
                 <a href = "src/frontEnd/cadastrar.php"><button>Cadastrar</button></a>
-                <?php require("src/frontEnd/footer.php")?>
             </div>
-        </div>
-    </div>
-</body>
-</html>
+            <?php require("src/frontEnd/footer.php")?>

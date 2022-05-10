@@ -13,7 +13,7 @@ html
 {
     font-size:10px;
 }
-#conteudo
+body
 {
     display: flex;
     justify-content: center;
@@ -22,19 +22,26 @@ html
     height: 100vh;
     background-color:#fc4869;
 }
+#conteudo
+{
+    display: flex;
+    padding:2vw;
+    background-color: white;
+    flex-direction: column;
+    align-items:center;
+    width: 70vw;
+    height: 80vh;
+    border: solid black 5px;
+    box-shadow: black 10px 10px 20px;
+    border-radius: 3vw 1vw 3vw 1vw;
+}
 .conteudo-bloco
 {
     display: flex;
-    border-radius: 3vw 1vw 3vw 1vw;
+    height: 90vh;
     justify-content: space-between;
     align-items: center;
-    width: 72vw;
-    padding: 10px;
     text-align: center;
-    background-color: white;
-    height: 85vh;
-    border: solid black 5px;
-    box-shadow: black 10px 10px 20px;
 }
 .conteudo-bloco-img
 {
@@ -53,7 +60,7 @@ html
 }
 .conteudo-bloco-button
 {
-    flex-basis: 35vw;
+    width: 35vw;
 }
 .conteudo-bloco-button button
 {
@@ -71,13 +78,79 @@ html
     background-color: #BF495E;
     transition: 0.3;
 }
-.conteudo-bloco-button #rodape
+#rodape
 {
     font-size:1.6rem;
-    margin:2vw 0;
 }
-.conteudo-bloco-button #rodape a
+ #rodape a
 {
     color:#F24B59;
     text-decoration: none;
+}
+/*Estilização dos inputs*/
+.conteudo-bloco-form
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:35vw;
+}
+.conteudo-bloco-form h1
+{
+    font-size:3rem;
+    color:#203A40;
+    margin:1vw 0 2vw;
+}
+
+.form-area-input
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-area-input label
+{
+    font-size:1.5rem;
+    align-self: flex-start;
+}
+.form-area-input input,.form-area-input button
+{
+    width:100%;
+    box-sizing: border-box;
+    height: 7vh;
+    font-size: 1.4rem;
+    margin: 0.5vw 0;
+    padding: 0 0 0 1vw;
+    border: solid 3px #F24B59;
+}
+.form-area-input button
+{
+    height: 9vh;
+    font-size: 1.6rem;
+    color: white;
+    border: none;
+    background-color: #F24B59;
+    cursor: pointer;
+}
+.form-area-input button:hover
+{
+    background-color: #BF495E; 
+}
+.form-area-footer
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin:1vw;
+    font-size: 1.6rem;
+}
+.form-area-footer a
+{
+    text-decoration: none;
+    color:#F24B59;
+}
+.form-area-footer a:hover
+{
+    color:#BF495E; 
 }
