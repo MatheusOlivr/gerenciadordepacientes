@@ -161,7 +161,7 @@ body
 {
     margin-top:1vw;
     height: 1.5vh;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-name: loading;
     border-radius: 1vw;
     animation-play-state:running;
