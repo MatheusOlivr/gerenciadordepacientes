@@ -1,0 +1,37 @@
+@font-face
+{
+	font-family: "Ubuntu";
+	src: url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+}
+*
+{
+    margin: 0;
+    padding: 0;
+	font-family: Ubuntu,sans-serif;
+}
+html
+{
+    font-size:10px;
+}
+body
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#tabela-pacientes
+{
+    text-align: center;
+}
+#tabela-pacientes th
+{
+    font-size:1.8rem;
+    background-color: #203A40;
+    color:white;
+    padding:1vh 4vw;
+}
+#tabela-pacientes td
+{
+    font-size:1.6rem;
+    padding:1vh 4vw;
+}

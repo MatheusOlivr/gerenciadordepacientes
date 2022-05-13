@@ -155,8 +155,14 @@ body
 {
     color:#BF495E; 
 }
-/*estilos para os arquivos de funções*/
 
+/*estilos para os arquivos de funções*/
+/*Estilo do iframe do table*/
+iframe
+{
+    width: 65vw;
+    height: 74vh;
+}
 .mensagem
 {
     margin-top:1vw;
