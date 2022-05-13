@@ -13,11 +13,60 @@ html
 {
     font-size:10px;
 }
-body
+#body
 {
-    display:flex;
-    align-items: flex-start;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:#fc4869;
+}
+#conteudo
+{
+    display: flex;
+    padding:3vw 2vh;
+    background-color: white;
+    flex-direction: column;
+    align-items:center;
+    width: 70vw;
+    height: 80vh;
+    border: solid black 5px;
+    box-shadow: black 10px 10px 20px;
+    border-radius: 3vw 1vw 3vw 1vw;
+}
+.conteudo-bloco
+{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+}
+.conteudo-bloco-links
+{
+    display: flex;
+    flex-direction: row;
+}
+.conteudo-bloco-links a
+{
+    margin:-1vw 8vw 2vw 8vw;
+    text-decoration: none;
+    color:#F24B59;
+}
+.conteudo-bloco-links a:hover
+{
+    cursor: pointer;
+    color: #BF495E;
+    transition: 0.3;
+}
+iframe
+{
+    width: 65vw;
+    height: 65vh;
+    margin:0vw 0vw 2vw 0vw;
 }
 #tabela-pacientes
 {
@@ -34,4 +83,13 @@ body
 {
     font-size:1.6rem;
     padding:1vh 4vw;
+}
+#rodape
+{
+    font-size:1.6rem;
+}
+ #rodape a
+{
+    color:#F24B59;
+    text-decoration: none;
 }
