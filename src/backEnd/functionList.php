@@ -21,7 +21,7 @@
             <td><?php echo $paciente["nome"]?></td>
             <td><?php echo $paciente["idade"]?></td>
             <td><?php echo $paciente["peso"]?></td>
-            <td><?php echo substr($paciente["altura"],0,1).".".substr($paciente["altura"],1)?></td>
+            <td><?php echo substr($paciente["altura"],0,1).".".substr($paciente["altura"],1,2)?></td>
             <td><?php echo $paciente["imc"]?></td>
         </tr>
     <?php 

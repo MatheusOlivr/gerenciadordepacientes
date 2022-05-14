@@ -6,8 +6,8 @@
         $nome = $_POST['inputNome']; 
 		$idade = $_POST['inputIdade']; 
 		$peso = $_POST['inputPeso'];
-        $altura= $_POST['inputAltura']/100;
-		$imc = $peso/($altura**2);
+        $altura= $_POST['inputAltura'];
+		$imc = $peso/(($altura/100)**2);
 		$imc = substr($imc,0,5);
         $query = "INSERT INTO pacientes (nome,idade,peso,altura,imc) VALUES ('$nome','$idade','$peso','$altura','$imc')"; 
 		mysqli_query($connectDb,$query);
