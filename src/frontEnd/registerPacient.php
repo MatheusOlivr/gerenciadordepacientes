@@ -1,4 +1,5 @@
 <?php
+    require("../backEnd/functionVerificaLogin.php");
     $tituloPage = "Area de login - total Care";
     $dirIcon = "../images/favicon.ico";
     $dirCss = "../styles/main.css";
