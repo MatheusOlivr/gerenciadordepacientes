@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $tituloPage = "Area de login - total Care";
+    $tituloPage = "Esqueci a senha - total Care";
     $dirIcon = "../images/favicon.ico";
     $dirCss = "../styles/main.css";
     require("header.php");
@@ -8,12 +8,12 @@
     <div class = "conteudo-bloco-img">
         <img src = "../images/enfermeira.jpg" alt = "enfermeiros">
     </div>
-    <form class = "conteudo-bloco-form" method = "POST" action = "../backEnd/functionLogin.php" >
-        <h1>Fazer Login:</h1>
-        <?php if ($_SESSION["nao_autenticado"])
+    <form class = "conteudo-bloco-form" method = "POST" action = "../backEnd/functionForgetPassword.php" >
+        <h1>Esqueci a senha:</h1>
+        <?php if ($_SESSION["email_inexistente"])
         {
         ?>
-            <p class = "nao-autenticado">O e-mail ou a senha estão incorretos</p>
+            <p class = "email_inexistente">O e-mail digitado não existe no nosso banco de dados</p>
         <?php
             session_destroy(); 
         }
@@ -22,11 +22,11 @@
             <label for = "inputEmail">E-mail:</label>
             <input type = "email" name = "inputEmail" required placeholder = "Digite aqui seu  email:" id = "inputEmail">
             <label for = "inputSenha">Senha:</label>
-            <input type = "password" name = "inputSenha" required placeholder = "Digite aqui seu  senha:" id = "inputSenha">
-            <button type = "submit">Fazer Login:</button>
+            <input type = "password" name = "inputSenha" required placeholder = "Digite aqui sua nova senha:" id = "inputSenha">
+            <button type = "submit">Alterar senha:</button>
         </div>
         <div class = "form-area-footer">
-            <a href = "forgetPassword.php">Esqueceu a senha</a>
+            <a href = "login.php">Login</a>
             <a href = "register.php">Cadastre-se</a>
         </div>
     </form>

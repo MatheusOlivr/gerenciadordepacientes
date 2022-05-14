@@ -28,7 +28,7 @@
             <button type = "submit">Cadastre-se:</button>
         </div>
         <div class = "form-area-footer">
-            <a href = "forgetpassword.php">Esqueceu a senha</a>
+            <a href = "forgetPassword.php">Esqueceu a senha</a>
             <a href = "login.php">Fazer Login</a>
         </div>
     </form>

@@ -88,7 +88,7 @@
     color:#203A40;
     margin:1vw 0 2vw;
 }
-.nao-autenticado,.nao-registrado
+.nao-autenticado,.nao-registrado,.email_inexistente
 {
     font-size:1.4rem;
     background-color: #F24B59;
