@@ -11,7 +11,7 @@ Essa é a minha versão do projeto **gerenciador-de-pacientes**
 # 2.COMO IMPLEMENTAR O PROJETO PARA TESTÁ-LO:
 ## Clonando o projeto:
 - O primeiro passo para implementar o projeto gerenciador-de-pacientes é abrir o terminal na pasta onde você quer que o projeto seja clonado, colar o seguinte comando:
-    ** git clone https://github.com/MatheusOlivr/gerenciadordepacientes.git  **
+    git clone https://github.com/MatheusOlivr/gerenciadordepacientes.git  
 e dar um enter.
 ## Iniciando o mysql e criando o banco de dados:
 - Após isso você deve iniciar o mysql server, acessar a area do phpmyadmin **(localhost/phpmyadmin)**, abrir a pasta sql, que está dentro da pasta src, puxar o arquivo db.sql e jogar ele dentro da interface do phpmyadmin.
@@ -21,8 +21,8 @@ Agora basta iniciar o servidor php dentro do diretório do projeto **(onde se en
 ## Fazendo login:
 O banco de dados do projeto já vem com um usuario cadastrado e para fazer login desse usuario basta acessar a pagina de login do projeto e colocar:
 ### LOGIN E SENHA:
-    **email: admin@admin.com**
-    **senha: admin**
+    email: admin@admin.com
+    senha: admin
 
 # 3.MUDANÇAS ENTRE O PROJETO ORIGINAL E O MEU:
 * Os arquivos do front-end do projeto agora ficam em uma pasta chamada front.
@@ -34,16 +34,15 @@ O banco de dados do projeto já vem com um usuario cadastrado e para fazer login
 
 # 4.IMAGENS DO PROJETO:
 ### Pagina inicial:
-![](https://imgur.com/LUOXYUxl.png)
+![](https://imgur.com/6NCAkXU.png)
 ### Area de login:
-![]()
+![](https://imgur.com/ux6lmNK.png)
 ### Area de Cadastro:
-![]()
+![](https://imgur.com/pGgvQV2.png)
 ### Area de esqueci a minha senha:
-![]()
+![](https://imgur.com/LVftgLo.png)
 ### Area de listagem dos pacientes:
-![]()
+![](https://imgur.com/8hTTDkz.png)
 ### Area de cadastro de paciente:
-![]()
-### Area de logout:
-![]()
+![](https://imgur.com/4xpNdp7.png)
+
