@@ -1,4 +1,5 @@
-<?php 
+<?php
+    session_start();
     $tituloPage = "Area de login - total Care";
     $dirIcon = "../images/favicon.ico";
     $dirCss = "../styles/main.css";
@@ -9,6 +10,14 @@
     </div>
     <form class = "conteudo-bloco-form" method = "POST" action = "../backEnd/functionLogin.php" >
         <h1>Fazer Login:</h1>
+        <?php if ($_SESSION["nao_autenticado"])
+        {
+        ?>
+            <p class = "nao-autenticado">O e-mail ou a senha estão incorretos</p>
+        <?php
+            session_destroy(); 
+        }
+        ?>
         <div class="form-area-input">
             <label for = "inputEmail">E-mail:</label>
             <input type = "email" name = "inputEmail" required placeholder = "Digite aqui seu  email:" id = "inputEmail">
