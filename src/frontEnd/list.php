@@ -6,7 +6,7 @@
 ?>
     <div class = "conteudo-bloco-links">
         <a href = "registerPacient.php"><h1>Cadastrar Paciente</h1></a>
-    <a href = "logout.php"><h1>Deslogar</h1></a>
+    <a href = "../backEnd/functionLogout.php"><h1>Deslogar</h1></a>
     </div>
     <iframe src="../backEnd/functionList.php" frameborder="0"></iframe>
 <?php

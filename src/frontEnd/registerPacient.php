@@ -22,7 +22,7 @@
         </div>
         <div class = "form-area-footer">
             <a href = "list.php">Listar Pacientes</a>
-            <a href = "logout.php">Deslogar</a>
+            <a href = "../backEnd/functionLogout.php">Deslogar</a>
         </div>
     </form>
 <?php
