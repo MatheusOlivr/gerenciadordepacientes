@@ -10,6 +10,6 @@
     <div class = "conteudo-bloco-button">
         <h1>Pagina Inicial</h1>
         <a href = "src/frontEnd/login.php"><button>Fazer Login</button></a>
-        <a href = "src/frontEnd/cadastrar.php"><button>Cadastrar</button></a>
+        <a href = "src/frontEnd/register.php"><button>Cadastrar</button></a>
     </div>
 <?php require("src/frontEnd/footer.php")?>

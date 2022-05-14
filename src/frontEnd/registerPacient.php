@@ -1,6 +1,6 @@
 <?php
     require("../backEnd/functionVerificaLogin.php");
-    $tituloPage = "Area de login - total Care";
+    $tituloPage = "Cadastrar Paciente";
     $dirIcon = "../images/favicon.ico";
     $dirCss = "../styles/main.css";
     require("header.php");
