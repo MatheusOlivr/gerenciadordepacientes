@@ -1,4 +1,4 @@
-<link rel = "stylesheet" href = "../styles/main.css">
+<link rel = "stylesheet" href = "../styles/mensagem.css">
 <?php
     session_start();
     function login()
@@ -13,7 +13,7 @@
         {
             $_SESSION["logado"] = 1;
             echo "<h1>Logado com sucesso</h1>";
-            echo "<div class = 'mensagem'></div>";
+            echo "<div></div>";
             header("refresh:1;../frontEnd/list.php");
         }
         else

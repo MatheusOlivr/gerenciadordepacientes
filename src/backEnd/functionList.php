@@ -1,4 +1,4 @@
-<link rel = "stylesheet" href = "../styles/list.css">
+<link rel = "stylesheet" href = "../styles/functionList.css">
 <?php 
     require("connectDb.php");
     $query = "SELECT * FROM pacientes";
@@ -9,7 +9,7 @@
         <th>NOME</th>
         <th>IDADE</th>
         <th>PESO</th>
-        <th>ALTURA</th>
+        <th>ALTURA EM CM</th>
         <th>IMC</th>
     </tr>
     <?php

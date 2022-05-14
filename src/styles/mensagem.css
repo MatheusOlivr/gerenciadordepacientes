@@ -1,0 +1,36 @@
+@import url("../config.css");
+body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:#fc4869;
+}
+h1
+{
+    font-size:2.3rem;
+}
+div
+{
+    margin-top:1vw;
+    height: 1.5vh;
+    animation-duration: 1s;
+    animation-name: loading;
+    border-radius: 1vw;
+    animation-play-state:running;
+    background-color:white;
+}
+@keyframes loading
+{
+    from
+    {
+        width: 0vw;
+    }
+    to
+    {
+        width: 25vw;
+    }
+}

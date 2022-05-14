@@ -10,10 +10,10 @@
     <form class = "conteudo-bloco-form" method = "POST" action = "../backEnd/functionLogin.php" >
         <h1>Fazer Login:</h1>
         <div class="form-area-input">
-            <label for = "input-email">E-mail:</label>
-            <input type = "email" name = "input-email" required placeholder = "Digite aqui seu  email:" id = "input-email">
-            <label for = "input-senha">Senha:</label>
-            <input type = "password" name = "input-senha" required placeholder = "Digite aqui seu  senha:" id = "input-senha">
+            <label for = "inputEmail">E-mail:</label>
+            <input type = "email" name = "inputEmail" required placeholder = "Digite aqui seu  email:" id = "inputEmail">
+            <label for = "inputSenha">Senha:</label>
+            <input type = "password" name = "inputSenha" required placeholder = "Digite aqui seu  senha:" id = "inputSenha">
             <button type = "submit">Fazer Login:</button>
         </div>
         <div class = "form-area-footer">
